@@ -1,4 +1,5 @@
-import Stacks.IntStack;
+import Queues.IntQueue;
+import Queues.PersonQueue;
 import Stacks.Person;
 import Stacks.PersonStack;
 
@@ -29,5 +30,24 @@ public class Main {
 
         System.out.println(stack.pop().toString());
         System.out.println(stack.pop().toString());
+
+        IntQueue q = new IntQueue();
+        q.enqueue(3);
+        q.enqueue(7);
+        q.enqueue(8);
+        q.enqueue(9);
+
+        System.out.println(q.dequeue());
+        System.out.println(q.dequeue());
+        System.out.println(q.dequeue());
+    }
+
+    public static PersonQueue main(int i){
+        PersonQueue personqueue = new PersonQueue();
+        personqueue.enqueue(new Queues.Person("Jordan", "23"));
+        personqueue.enqueue(new Queues.Person("Jamar", "56"));
+        personqueue.showAll();
+
+        return personqueue;
     }
 }

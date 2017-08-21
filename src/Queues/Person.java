@@ -1,7 +1,7 @@
-package Stacks;
+package Queues;
 
 /**
- * Created by mathenge on 20/08/2017.
+ * Created by mathenge on 21/08/2017.
  */
 public class Person {
     private String name;
@@ -11,8 +11,6 @@ public class Person {
         this.name = name;
         this.rollNo = rollNo;
     }
-
-
 
     @Override
     public String toString() {

@@ -1,4 +1,4 @@
-package Stacks;
+package Tree;
 
 /**
  * Created by mathenge on 20/08/2017.
@@ -11,8 +11,6 @@ public class Person {
         this.name = name;
         this.rollNo = rollNo;
     }
-
-
 
     @Override
     public String toString() {
